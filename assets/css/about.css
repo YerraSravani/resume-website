@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.head a{
+    text-decoration: none;
+    padding-left: 30px;
+}
+.head .head-icons a{
+    opacity: 0.5;
+}
+.section2 p{
+    /* gap: 20px; */
+ }
+.section3 img{
+border-radius: 50%;
+border: 5px solid grey;
+position: relative;
+left: 80px;
+bottom: 50px;
+} 
+.section3 img:hover{
+    border: 5px solid blue;
+}
+.section3 a{
+    gap: 20px;
+    color: grey;
+}
+.section3 a:hover{
+    color: blue;
+}
+.section4{
+    background-image: url(../media/slide2.jpg);
+    height: 100%;
+}
+.section4 .col-sm-3{
+    position: relative;
+    top: 100px;
+}
+.section4 i{
+    font-size: 100px;
+    /* position: relative;
+    left: 80px; */
+}
+.section5 button{
+    background-color: rgb(59, 59, 120);
+    border: 1px solid rgb(59, 59, 120);
+    color: white;
+    border-radius: 30px;
+}
+.section5 button:hover{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+.section6{
+    background-color: rgb(55, 55, 111);
+    color: white;
+}
+.section6 .links a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.section6 .links2 a{
+    text-decoration: none;
+}
+.section7{
+    background-color: rgb(24, 24, 55);
+}
+

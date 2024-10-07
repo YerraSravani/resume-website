@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.head{
+    width: 100%;
+}
+.head a{
+    text-decoration: none;
+    gap: 20px;
+}
+.head-icon{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    position: relative;
+    /* top: 10px; */
+    right: 100px;
+    bottom: 15px;
+}
+nav ul li a{
+    color: grey;
+}
+nav ul li a:hover{
+    background-color: rgb(229, 210, 210);
+    color: blue;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 500px;
+}
+.carousel-caption{
+    width: 400px;
+    position: relative;
+}
+strong{
+    color: blue;
+}
+.section2 i{
+    font-size: 40px;
+}
+.col-sm-6{
+    background-image: url(../media/image2.jpg);
+    height: 300px;
+    opacity: 0.5;
+}
+.section4 h3{
+    text-align: center;
+}
+.section3 i{
+    font-size: 40px;
+    opacity: none;
+    color: green;
+    gap: 20px;
+    position: relative;
+    left: 50px;
+}
+.section4 i{
+    font-size: 50px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    left: 50px;
+}
+.section4 i:hover{
+    background-color: blue;
+}
+.section4 h5{
+    position: relative;
+    left: 20px;
+}
+.section4 p{
+    position: relative;
+    right: 20px;
+    font-size: 15px;
+    padding: 10px;
+}
+.section4 .col-sm-4{
+    padding: 10px;
+}
+.section5{
+    background-image: url(../images/image2.jpg);
+    width: 100%;
+    height: 300px;
+}
+.section5 button{
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+    font-size: 30px;
+}
+.section5 .card{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 10px;
+}
+.section6{
+    position: relative;
+    top: 230px;
+}
+.section6 .card{
+    /* border: none; */
+    height: 220px;
+    padding: 10px;
+}
+.section6 h3{
+    text-align: center;
+}
+.section6 img{
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 50%;
+}
+.section6 img:hover{
+    background-color: blue;
+}
+/* .section6 .sec6-icon{
+    font-size: 40px;
+    z-index: 50;
+    /* background-color: white; */
+    /* border: 1px solid grey;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    left: 200px;
+
+}  */
+/* .section6 i{
+    font-size: 35px;
+    border: 1px solid rgb(202, 200, 200);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 17px;
+    position: relative;
+    bottom: 50px;
+    left: 140px;
+} */
+/* .section6 i:hover{
+    background-color: blue;
+    border: 1px solid blue;
+}
+.section6 .col-sm-4 .box2{
+    border: 1px solid grey;
+    height: 250px;
+    padding: 20px;
+}
+.section6 .col-sm-4 .box2:hover{
+    border: 1px solid blue;
+} */
+.section7{
+    position: relative;
+    top: 250px;
+}
+.section7 .box3{
+    border: 1px solid grey;
+}
+.section7 h4{
+    text-align: center;
+}
+.section7 .box3 h5{
+    border: 1px solid grey;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.section7 .box3 h6{
+    /* padding-left: 80px; */
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+.section7 .box3 p{
+    position: relative;
+    bottom: 50px;
+    opacity: 0.7;
+}
+.section7 button{
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid blue;  
+    border-radius: 30px;
+    color: blue;
+}
+.section7 button:hover{
+    background-color: blue;
+    color: #ffffff;
+}
+.section8{
+    position: relative;
+    top: 250px;
+}
+.section8 .col-lg-6{
+    padding: 20px;
+    padding-left: 50px;
+}
+.section8 .box8{
+    border: 1px solid grey;
+    padding: 20px;
+    height: 150px;
+    /* padding: 20px; */
+}
+.section8 .box8:hover{
+    border: 1px solid blue;
+}
+.section8 .col-lg-6 img{
+    border: 1px solid grey;
+    border-radius: 50%;
+    position: relative;
+    left: 250px;
+    top: 20px;
+    background-color: white;
+    padding: 5px;
+}
+.section8 .col-lg-6 img:hover{
+   background-color: blue;
+}
+.section8 .box8-2{
+    border: 1px solid grey;
+    padding: 30px;
+    height: 300px;
+}
+.section8 .box8-2:hover{
+    border: 1px solid blue;
+}
+.section9{
+    position: relative;
+    top: 250px;
+}
+.section9 .sec9{
+    box-shadow: 0px 2px 4px rgb(176, 175, 175);
+}
+ .container .sec9 p{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.container .sec9 h6{
+    position: relative;
+    left: 500px;
+    bottom: 20px;
+}
+.section9 h6{
+    font-size: 25px;
+} 
+.section10{
+    position: relative;
+    top: 300px;
+}
+.section10 button{
+    width: 180px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 30px;
+    color: white;
+}
+.section10 button:hover{
+    background-color: white;
+    color: blue;
+}
+.section10 .col-sm-4{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.section10 .card{
+    height: 250px;
+    /* box-shadow: 0px 2px 4px white; */
+}
+.section10 .card:hover{
+    box-shadow: 0px 2px 4px white;
+    border: 1px solid white;
+}
+.section10 .card img{
+    border-radius: 50%;
+    border: 5px solid grey;
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    background-color: white;
+}
+.section10 .card h5{
+border: 1px solid grey;
+width: 350px;height: 70px;
+position: relative;
+right: 18px;
+top: 50px;
+padding: 25px;
+}
+.section11{
+    position: relative;
+    top: 350px;
+}
+.section11.col-sm-4{
+
+}
+.section11 .card{
+    overflow: hidden;
+}
+.section11 img{
+    position: relative;
+    right: 17px;
+    bottom: 20px;
+    transition: transform 0.2s;
+}
+.section11 img:hover{
+    transform: scale(1.2);
+}
+.section11 hr{
+    position: relative;
+    right: 17px;
+}
+.section11 .card h6{
+    position: relative;
+    bottom: 40px;
+}
+.section11 .card h5:hover{
+    color: blue;
+}
+.section11 .card button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    border: 1px solid grey;
+    color: blue;
+}
+.section11 .card button:hover{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+.section11 .card button i{
+    font-size: 30px;
+}
+.section12{
+    background-color: blue;
+    position: relative;
+    top: 400px;
+    padding: 15px;
+}
+.section12 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid blue;
+    background-color: rgb(40, 40, 110);
+    color: white;
+}
+.section12 button:hover{
+    background-color: white;
+    color: blue;
+}
+.section13{
+    position: relative;
+    top: 400px;
+    background-color: rgb(55, 55, 111);
+    color: white;
+}
+.section13 .links a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.section13 .links2 a{
+    text-decoration: none;
+}
+.section14{
+    background-color: rgb(24, 24, 55);
+    position: relative;
+    top: 400px;
+}
+@media only screen and (max-width: 342px){
+     .head-contact a{
+        width: 100%;
+     }
+     .head-contact a i{
+        font-size: 30px;
+     }
+     .carousel-inner img{
+        width: 100%;
+     }
+     .section5 .card{
+        position: relative;
+        left: -50px;
+     }
+     .section5 button{
+        position: relative;
+        left: 100px;
+     }
+     /* .section8 .sec8-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+     } */
+    }
